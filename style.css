@@ -151,6 +151,13 @@ h1{ font-size: clamp(2rem, 4vw, 3.1rem); line-height: 1.1; margin: 0 0 12px; }
 }
 .card h3{ margin: 0; }
 .card p{ margin: 0; color: var(--muted); }
+.card .project-status{ color: var(--accent); font-size: 0.8rem; font-weight: 650; }
+.card .project-note{ font-size: 0.85rem; margin-top: auto; padding-top: 8px; }
+.project-link{ color: var(--accent); font-weight: 600; margin-top: auto; padding-top: 8px; }
+.section{ scroll-margin-top: 90px; }
+a:focus-visible{ outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 3px; }
+.card, .hero-text, .hero-card{ min-width: 0; }
+.contact-card a{ overflow-wrap: anywhere; }
 
 .tags{ display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
 .tags span{
@@ -197,5 +204,10 @@ h1{ font-size: clamp(2rem, 4vw, 3.1rem); line-height: 1.1; margin: 0 0 12px; }
 @media (max-width: 900px){
   .hero{ grid-template-columns: 1fr; padding-top: 34px; }
   .grid{ grid-template-columns: 1fr; }
-  .nav-links{ display: none; } /* simple for now */
+  .nav{ grid-template-columns: auto 1fr; }
+  .nav-links{ justify-self: end; gap: 14px; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior: auto; }
 }

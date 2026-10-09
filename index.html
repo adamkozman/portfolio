@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Adam Kozman | Portfolio</title>
+  <meta name="description" content="Adam Kozman, Software Engineering student at Concordia University. Explore web applications, React and TypeScript projects, Java, and collaborative software development." />
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -33,8 +34,9 @@
         </h1>
 
         <p class="subtext">
-          I’m focused on building strong fundamentals and creating simple, polished projects.
-          Here’s what I’m working on right now.
+          I’m a Software Engineering student at Concordia University building responsive websites
+          and full-stack applications with JavaScript, TypeScript, React, Node.js, and SQL.
+          My work spans individual projects, collaborative course applications, and Agile teamwork.
         </p>
 
         <div class="hero-actions">
@@ -47,7 +49,8 @@
         <ul>
           <li><strong>Location:</strong> Montréal, QC</li>
           <li><strong>Program:</strong> Software Engineering (BEng), Concordia</li>
-          <li><strong>Interests:</strong> Web, Java, Front-end, Back-end</li>
+          <li><strong>Focus:</strong> Full-stack web development, Java, and user-friendly interfaces</li>
+          <li><strong>Currently:</strong> Building CareerConnect with a team for SOEN 341</li>
         </ul>
       </div>
     </section>
@@ -55,10 +58,66 @@
     <section id="projects" class="section container">
       <div class="section-head">
         <h2>Projects</h2>
-        <p>Small projects that show structure, clarity, and clean UI.</p>
+        <p>Web applications, team projects, and programming foundations. Updated October 2026.</p>
       </div>
 
       <div class="grid">
+        <article class="card">
+          <p class="project-status">Booking application · Deployment in progress</p>
+          <h3>Joe’s Blendz</h3>
+          <p>
+            Barber booking website with service pricing, availability management, and a password-protected
+            owner dashboard. Appointment durations prevent overlapping bookings; customers receive
+            cancellation links and calendar downloads. Public launch is still pending.
+          </p>
+          <div class="tags" aria-label="Joe’s Blendz technologies">
+            <span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>Cloudflare D1</span><span>Drizzle ORM</span>
+          </div>
+          <a class="project-link" href="https://github.com/adamkozman/joesblendz" target="_blank" rel="noopener noreferrer">View Joe’s Blendz on GitHub ↗</a>
+        </article>
+
+        <article class="card">
+          <p class="project-status">Team of four · Completed April 2026</p>
+          <h3>Smart Course Companion</h3>
+          <p>
+            Collaborative course-management application with student and instructor dashboards,
+            course enrollment, assessments, weighted grades, and an assessment calendar.
+            My contribution focused on course and assessment creation and management.
+          </p>
+          <div class="tags" aria-label="Smart Course Companion technologies">
+            <span>JavaScript</span><span>Node.js</span><span>Express</span><span>SQLite</span><span>HTML / CSS</span>
+          </div>
+          <a class="project-link" href="https://github.com/adamkozman/smart-course-companion" target="_blank" rel="noopener noreferrer">View Smart Course Companion on GitHub ↗</a>
+        </article>
+
+        <article class="card">
+          <p class="project-status">Team project · In progress</p>
+          <h3>CareerConnect</h3>
+          <p>
+            Collaborating on a job-search and application-tracking platform for SOEN 341
+            (Software Process). The current React frontend includes login and profile interfaces
+            with client-side profile editing. Backend integration and job-tracking features are planned.
+          </p>
+          <div class="tags" aria-label="CareerConnect technologies and practices">
+            <span>React</span><span>TypeScript</span><span>Vite</span><span>Tailwind CSS</span><span>Agile teamwork</span>
+          </div>
+          <p class="project-note">Private team repository · Fall 2026</p>
+        </article>
+
+        <article class="card">
+          <p class="project-status">Frontend project · In progress</p>
+          <h3>Koffee Kozman</h3>
+          <p>
+            Responsive coffee-shop website with a 14-item sample menu, CAD pricing, and JavaScript
+            category filters. Includes keyboard-friendly mobile navigation and an opening-hours
+            indicator calculated in Montréal time. Menu content remains available without JavaScript.
+          </p>
+          <div class="tags" aria-label="Koffee Kozman technologies">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive design</span><span>Accessibility</span>
+          </div>
+          <p class="project-note">Private repository · Sample shop details; online ordering is planned.</p>
+        </article>
+
         <article class="card">
           <h3>Personal Portfolio Website</h3>
           <p>
@@ -99,33 +158,46 @@
           </div>
         </article>
 
-        <article class="card">
-          <h3>Coffee Shop Website (HTML/CSS)</h3>
-          <p>
-            Responsive coffee shop webpage with menu layout, featured items, and contact/location section.
-            <strong>(In progress)</strong>
-          </p>
-          <div class="tags" aria-label="Technologies">
-            <span>HTML</span><span>CSS</span><span>Layout</span>
-          </div>
-        </article>
       </div>
     </section>
 
     <section id="skills" class="section container">
       <div class="section-head">
         <h2>Skills</h2>
-        <p>Tech I use or I’m currently improving.</p>
+        <p>Languages, tools, and practices used across my individual and team projects.</p>
       </div>
 
-      <div class="pill-grid" aria-label="Skills list">
+      <h3>Languages</h3>
+      <div class="pill-grid" aria-label="Languages">
         <span class="pill">HTML</span>
         <span class="pill">CSS</span>
         <span class="pill">JavaScript</span>
+        <span class="pill">TypeScript</span>
         <span class="pill">Java</span>
-        <span class="pill">Git/GitHub</span>
-        <span class="pill">Problem Solving</span>
-        <span class="pill">Responsive Design</span>
+        <span class="pill">SQL</span>
+      </div>
+      <h3>Frameworks &amp; data</h3>
+      <div class="pill-grid" aria-label="Frameworks and data">
+        <span class="pill">React</span>
+        <span class="pill">Node.js</span>
+        <span class="pill">Express</span>
+        <span class="pill">Tailwind CSS</span>
+        <span class="pill">SQLite</span>
+        <span class="pill">Cloudflare D1</span>
+        <span class="pill">Drizzle ORM</span>
+      </div>
+      <h3>Tools &amp; development practices</h3>
+      <div class="pill-grid" aria-label="Tools and development practices">
+        <span class="pill">Git &amp; GitHub</span>
+        <span class="pill">npm &amp; Vite</span>
+        <span class="pill">Agile teamwork</span>
+        <span class="pill">Issue tracking</span>
+        <span class="pill">REST APIs</span>
+        <span class="pill">Responsive design</span>
+        <span class="pill">Semantic HTML &amp; accessibility</span>
+        <span class="pill">Input validation</span>
+        <span class="pill">Debugging &amp; testing</span>
+        <span class="pill">Problem solving</span>
       </div>
     </section>
 
@@ -161,7 +233,6 @@
   <footer class="footer container">
     <p>© 2026 Adam Kozman • Built with HTML & CSS</p>
   </footer>
-  <!-- redeploy1 -->
 </body>
 </html>
 
